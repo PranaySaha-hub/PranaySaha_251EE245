@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RCA4bit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RCA4bit_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1.420 ns"></ZoomStartTime>
+      <ZoomEndTime time="87.040 ns"></ZoomEndTime>
+      <Cursor1Time time="8.828 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/RCA4bit_tb/A" type="array">
+      <obj_property name="ElementShortName">A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RCA4bit_tb/B" type="array">
+      <obj_property name="ElementShortName">B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RCA4bit_tb/carry_in" type="logic">
+      <obj_property name="ElementShortName">carry_in</obj_property>
+      <obj_property name="ObjectShortName">carry_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RCA4bit_tb/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RCA4bit_tb/carry_out" type="logic">
+      <obj_property name="ElementShortName">carry_out</obj_property>
+      <obj_property name="ObjectShortName">carry_out</obj_property>
+   </wvobject>
+</wave_config>
